@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo Freitas - Portfólio Multifacetado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- VLibras -->
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+</head>
+<body>
+    
+    <!-- Navbar Fixa -->
+    <nav class="fixed-navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">
+                <img src="https://avatars.githubusercontent.com/u/62723330?v=4" alt="Paulo Freitas">
+                Paulo Freitas
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Início</a></li>
+                <li class="nav-item"><a href="#research" class="nav-link">Pesquisas</a></li>
+                <li class="nav-item"><a href="#academic" class="nav-link">Acadêmicos</a></li>
+                <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#events" class="nav-link">Eventos</a></li>
+                <li class="nav-item">
+                    <a href="https://github.com/paulofreitas-py" class="nav-link" target="_blank">
+                        <i class="devicon-github-plain"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/paulo-henrique-rodrigues-freitas-6b2a3a1b3/" class="nav-link" target="_blank">
+                        <i class="devicon-linkedin-plain"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Widget VLibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero text-center">
+        <div class="container">
+            <div class="profile-nav">
+                <button class="profile-nav-btn" id="prev-profile">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="profile-nav-btn" id="next-profile">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <img src="https://avatars.githubusercontent.com/u/62723330?v=4" alt="Paulo Freitas" class="profile-img mb-4" id="profile-img">
+            <h1 class="display-4 fw-bold" id="profile-title">Paulo Freitas</h1>
+            <p class="lead profile-title" id="profile-description">Cientista de Dados</p>
+            <div class="profile-indicators">
+                <span class="profile-indicator active" data-profile="data-science"></span>
+                <span class="profile-indicator" data-profile="design"></span>
+                <span class="profile-indicator" data-profile="photo"></span>
+            </div>
+            <!-- Carrossel de Logos -->
+<div class="logo-carousel-wrapper">
+    <div class="logo-carousel" id="logo-carousel">
+      <img src="assets/svg/python.svg" alt="Python" />
+      <img src="assets/svg/pandas.svg" alt="Pandas" />
+      <img src="assets/svg/tensorflow.svg" alt="TensorFlow" />
+      <img src="assets/svg/Adobe Photoshop.svg" alt="Adobe" />
+      <img src="assets/svg/Adobe Illustrator.svg" alt="Adobe" />
+      <img src="assets/svg/figma.svg" alt="Figma" />
+      <img src="assets/svg/canva.svg" alt="Figma" />
+      <img src="assets/svg/midjourney.svg" alt="Midjourney" />
+      <img src="assets/svg/openai.svg" alt="OpenAi" />
+      <img src="assets/svg/gemini.svg" alt="gemini" />
+      <img src="assets/svg/kling.svg" alt="kling" />
+      <img src="assets/svg/cohere.svg" alt="cohere" />
+      <img src="assets/svg/nova.svg" alt="nova" />
+      <img src="assets/svg/perplexity.svg" alt="perplexity" />
+      <img src="assets/svg/deepseek.svg" alt="deepseek" />
+      <img src="assets/svg/meta.svg" alt="meta" />
+      <img src="assets/svg/xai.svg" alt="grok" />
+      <img src="assets/svg/mistral.svg" alt="mistral" />
+      <img src="assets/svg/midjourney.svg" alt="Midjourney" />
+      <img src="assets/svg/openai.svg" alt="OpenAi" />
+      <img src="assets/svg/gemini.svg" alt="gemini" />
+      <img src="assets/svg/kling.svg" alt="kling" />
+      <img src="assets/svg/cohere.svg" alt="cohere" />
+      <img src="assets/svg/nova.svg" alt="nova" />
+      <img src="assets/svg/perplexity.svg" alt="perplexity" />
+      <img src="assets/svg/deepseek.svg" alt="deepseek" />
+      <img src="assets/svg/meta.svg" alt="meta" />
+      <img src="assets/svg/xai.svg" alt="grok" />
+      <img src="assets/svg/mistral.svg" alt="mistral" />
+    </div>
+        </div>
+    </section>
+    <!-- Conteúdo Dinâmico dos Perfis -->
+    <div class="container">
+        <div id="dynamic-profiles"></div>
+    </div>
+    <script src="script.js"></script>
+</div>
+<footer class="footer-contacts">
+    <div class="footer-contacts-container">
+        <a href="https://www.linkedin.com/in/paulo-henrique-rodrigues-freitas-6b2a3a1b3/" target="_blank" class="footer-contact-link" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/paulofreitas.py" target="_blank" class="footer-contact-link" title="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://x.com/paulofreitas_py" target="_blank" class="footer-contact-link" title="X (Twitter)">
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="https://discord.com/users/SEU_ID_DISCORD" target="_blank" class="footer-contact-link" title="Discord">
+            <i class="fab fa-discord"></i>
+        </a>
+        <a href="mailto:paulofreitas.ti@gmail.com" class="footer-contact-link" title="E-mail">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://t.me/paulofreitas_py" target="_blank" class="footer-contact-link" title="Telegram">
+            <i class="fab fa-telegram"></i>
+        </a>
+        <a href="https://www.threads.net/@paulofreitas.py" target="_blank" class="footer-contact-link" title="Threads">
+            <i class="fa-brands fa-threads"></i>
+        </a>
+    </div>
+    <div class="footer-copy">
+        &copy; 2025 Paulo Freitas. Todos os direitos reservados.
+    </div>
+</footer>
+</body>
+</html>
