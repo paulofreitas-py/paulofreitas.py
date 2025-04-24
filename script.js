@@ -121,7 +121,7 @@ const profiles = [
     {
         id: "raw",
         heroClass: "hero design",
-        img: "https://avatars.githubusercontent.com/u/62723330?v=4",
+        img: "assets/profiles/1.jpeg",
         title: "PauloFreitas.raw",
         description: "Designer, Fotógrafo & Editor de Fotos",
         content: `
@@ -238,7 +238,7 @@ const profiles = [
     {
         id: "ia",
         heroClass: "hero ia",
-        img: "https://avatars.githubusercontent.com/u/42820569?v=4",
+        img: "assets/profiles/3.jpeg",
         title: "PauloFreitas.ia",
         description: "Computação Criativa & IA Generativa",
         content: `
