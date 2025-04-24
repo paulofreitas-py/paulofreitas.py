@@ -3,7 +3,7 @@ const profiles = [
         id: "data-science",
         heroClass: "hero",
         img: "https://avatars.githubusercontent.com/u/42820569?v=4",
-        title: "Paulo Freitas",
+        title: "PauloFreitas.py",
         description: "Cientista de Dados",
         content: `
             <section class="py-5">
@@ -239,7 +239,7 @@ const profiles = [
         id: "ia",
         heroClass: "hero ia",
         img: "https://avatars.githubusercontent.com/u/42820569?v=4",
-        title: "Paulofreitas.IA",
+        title: "PauloFreitas.ia",
         description: "Computação Criativa & IA Generativa",
         content: `
             <section class="py-5">
