@@ -5,12 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de IAs Generativas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Aumentado o tamanho mínimo */
+            gap: 10px; /* Reduzido o espaçamento */
+            padding: 20px;
+        }
+        .gallery-item {
+            position: relative;
+            cursor: pointer;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+        .modal.show {
+            display: flex;
+            opacity: 1;
+        }
+        .modal-content {
+            position: relative;
+            max-width: 70%;
+            max-height: 80%;
+            text-align: center;
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .modal-content img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .modal-content p {
+            color: #fff;
+            margin-top: 15px;
+            font-size: 1.1rem;
+            font-style: italic;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+            animation: fadeIn 1s ease-in-out;
+        }
+        .modal-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Navbar Fixa -->
+    <!-- Navbar -->
     <nav class="fixed-navbar">
         <div class="nav-container">
             <a href="index.html" class="nav-brand">
@@ -19,70 +100,137 @@
             </a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="Badges.html" class="nav-link">Badges</a></li>
-                <li class="nav-item"><a href="academico.html" class="nav-link">Acadêmicos</a></li>
-                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="eventos.html" class="nav-link">Eventos</a></li>
                 <li class="nav-item"><a href="galeria.html" class="nav-link active">Galeria</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Galeria de IAs Generativas -->
+    <!-- Galeria -->
     <section class="py-5">
         <div class="container">
             <h1 class="text-center mb-4">Galeria de IAs Generativas</h1>
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="card shadow-sm p-4">
-                        <div class="row align-items-center">
-                            <div class="col-md-6 text-center">
-                                <img src="assets/ia/ia1.webp" class="img-fluid rounded-4" alt="Arte IA">
-                            </div>
-                            <div class="col-md-6">
-                                <div class="p-3">
-                                    <h5 class="fw-bold mb-2">Prompt:</h5>
-                                    <p class="mb-3 text-muted">"A futuristic cityscape at sunset, vibrant neon colors, flying cars, ultra-detailed, by Syd Mead, trending on ArtStation"</p>
-                                    <a href="https://seu-link-para-galeria-de-ia.com" target="_blank" class="btn btn-primary btn-lg fw-bold w-100">
-                                        Acesse a Galeria Completa
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="gallery-container">
+                <div class="gallery-item" data-prompt="Prompt: A futuristic cityscape at sunset, vibrant neon colors, flying cars, ultra-detailed, by Syd Mead">
+                    <img src="assets/ia/ia1.webp" alt="Imagem 1">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A serene mountain landscape with a glowing river, ultra-realistic, trending on ArtStation">
+                    <img src="assets/ia/ia2.webp" alt="Imagem 2">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A cyberpunk city at night, glowing neon signs, rain, ultra-detailed, by Greg Rutkowski">
+                    <img src="assets/ia/ia3.webp" alt="Imagem 3">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A close-up of a vibrant parrot in a jungle, glowing foliage, ultra-detailed">
+                    <img src="assets/ia/ia4.webp" alt="Imagem 4">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A luxury sports car in a futuristic garage, neon lights, ultra-detailed">
+                    <img src="assets/ia/ia5.webp" alt="Imagem 5">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A mystical forest with glowing mushrooms, magical atmosphere, ultra-detailed">
+                    <img src="assets/ia/ia6.webp" alt="Imagem 6">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A futuristic robot in a neon-lit lab, ultra-detailed">
+                    <img src="assets/ia/ia7.webp" alt="Imagem 7">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A magical castle floating in the sky, glowing clouds, ultra-detailed">
+                    <img src="assets/ia/ia8.webp" alt="Imagem 8">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A steampunk airship flying over a desert, ultra-detailed">
+                    <img src="assets/ia/ia9.webp" alt="Imagem 9">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A futuristic train speeding through a cyberpunk city, ultra-detailed">
+                    <img src="assets/ia/ia10.webp" alt="Imagem 10">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A glowing underwater city, vibrant marine life, ultra-detailed">
+                    <img src="assets/ia/ia11.webp" alt="Imagem 11">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A fantasy dragon flying over a volcano, ultra-detailed">
+                    <img src="assets/ia/ia12.webp" alt="Imagem 12">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A futuristic space station orbiting Earth, ultra-detailed">
+                    <img src="assets/ia/ia13.webp" alt="Imagem 13">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A glowing magical forest at night, ultra-detailed">
+                    <img src="assets/ia/ia14.webp" alt="Imagem 14">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A cyberpunk character in a neon-lit alley, ultra-detailed">
+                    <img src="assets/ia/ia15.webp" alt="Imagem 15">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A futuristic city with flying robots, ultra-detailed">
+                    <img src="assets/ia/ia16.webp" alt="Imagem 16">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A glowing alien planet with two moons, ultra-detailed">
+                    <img src="assets/ia/ia17.webp" alt="Imagem 17">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A fantasy warrior in a glowing armor, ultra-detailed">
+                    <img src="assets/ia/ia18.webp" alt="Imagem 18">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A futuristic drone flying over a city, ultra-detailed">
+                    <img src="assets/ia/ia19.webp" alt="Imagem 19">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A glowing magical portal in a forest, ultra-detailed">
+                    <img src="assets/ia/ia20.webp" alt="Imagem 20">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A futuristic skyscraper with glowing lights, ultra-detailed">
+                    <img src="assets/ia/ia21.webp" alt="Imagem 21">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A glowing nebula in space, ultra-detailed">
+                    <img src="assets/ia/ia22.webp" alt="Imagem 22">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A cyberpunk motorcycle speeding through a neon-lit street, ultra-detailed">
+                    <img src="assets/ia/ia23.webp" alt="Imagem 23">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A glowing futuristic bridge over a river, ultra-detailed">
+                    <img src="assets/ia/ia24.webp" alt="Imagem 24">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A fantasy creature in a glowing cave, ultra-detailed">
+                    <img src="assets/ia/ia25.webp" alt="Imagem 25">
+                </div>
+                <div class="gallery-item" data-prompt="Prompt: A futuristic robot army in a desert, ultra-detailed">
+                    <img src="assets/ia/ia26.webp" alt="Imagem 26">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer-contacts">
-        <div class="footer-contacts-container">
-            <a href="https://www.linkedin.com/in/paulofreitas-py/" target="_blank" class="footer-contact-link" title="LinkedIn">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://www.instagram.com/paulofreitas.py" target="_blank" class="footer-contact-link" title="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://x.com/paulofreitas_py" target="_blank" class="footer-contact-link" title="X (Twitter)">
-                <i class="fa-brands fa-x-twitter"></i>
-            </a>
-            <a href="https://discord.com/users/SEU_ID_DISCORD" target="_blank" class="footer-contact-link" title="Discord">
-                <i class="fab fa-discord"></i>
-            </a>
-            <a href="mailto:paulofreitas.cco@gmail.com" class="footer-contact-link" title="E-mail">
-                <i class="fas fa-envelope"></i>
-            </a>
-            <a href="https://t.me/paulofreitas_py" target="_blank" class="footer-contact-link" title="Telegram">
-                <i class="fab fa-telegram"></i>
-            </a>
-            <a href="https://www.threads.net/@paulofreitas.py" target="_blank" class="footer-contact-link" title="Threads">
-                <i class="fa-brands fa-threads"></i>
-            </a>
+    <!-- Modal -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <img id="modalImage" src="" alt="Imagem em Tela Cheia">
+            <p id="modalPrompt"></p>
         </div>
-        <div class="footer-copy">
-            &copy; 2025 Paulo Freitas. Todos os direitos reservados.
-        </div>
-    </footer>
+    </div>
+
+    <script>
+        // Seleciona os elementos da galeria e modal
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const modal = document.getElementById('imageModal');
+        const modalImage = document.getElementById('modalImage');
+        const modalPrompt = document.getElementById('modalPrompt');
+        const closeModal = document.getElementById('closeModal');
+
+        // Abre o modal ao clicar em uma imagem
+        galleryItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const imgSrc = item.querySelector('img').src;
+                const promptText = item.getAttribute('data-prompt');
+                modalImage.src = imgSrc;
+                modalPrompt.textContent = promptText;
+                modal.classList.add('show');
+            });
+        });
+
+        // Fecha o modal
+        closeModal.addEventListener('click', () => {
+            modal.classList.remove('show');
+        });
+
+        // Fecha o modal ao clicar fora do conteúdo
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('show');
+            }
+        });
+    </script>
 </body>
 </html>
