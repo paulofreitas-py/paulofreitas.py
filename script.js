@@ -314,7 +314,7 @@ const profiles = [
                     <div class="carousel-item active">
                         <div class="row align-items-center">
                             <div class="col-md-6 text-center">
-                                <img src="img/ia/ia1.jpg" class="d-block w-100 rounded-4" alt="Arte IA 1">
+                                <img src="assets/ia/ia1.webp" class="d-block w-100 rounded-4" alt="Arte IA 1">
                             </div>
                             <div class="col-md-6">
                                 <div class="p-4">
@@ -327,7 +327,7 @@ const profiles = [
                     <div class="carousel-item">
                         <div class="row align-items-center">
                             <div class="col-md-6 text-center">
-                                <img src="img/ia/ia2.jpg" class="d-block w-100 rounded-4" alt="Arte IA 2">
+                                <img src="assets/ia/ia2.webp" class="d-block w-100 rounded-4" alt="Arte IA 2">
                             </div>
                             <div class="col-md-6">
                                 <div class="p-4">
@@ -340,7 +340,7 @@ const profiles = [
                     <div class="carousel-item">
                         <div class="row align-items-center">
                             <div class="col-md-6 text-center">
-                                <img src="img/ia/ia3.jpg" class="d-block w-100 rounded-4" alt="Arte IA 3">
+                                <img src="assets/ia/ia3.webp" class="d-block w-100 rounded-4" alt="Arte IA 3">
                             </div>
                             <div class="col-md-6">
                                 <div class="p-4">
@@ -483,3 +483,16 @@ document.getElementById('next-profile').addEventListener('click', () => {
 
 // Inicializa com o primeiro perfil
 updateProfile();
+
+// Ativa o carrossel da galeria IA Generativa para trocar slides automaticamente a cada 4 segundos
+document.addEventListener('DOMContentLoaded', function () {
+    const iaCarousel = document.getElementById('iaGalleryCarousel');
+    if (iaCarousel && typeof bootstrap !== 'undefined') {
+        const carousel = new bootstrap.Carousel(iaCarousel, {
+            interval: 1000, // 4 segundos
+            ride: 'carousel',
+            pause: false,
+            wrap: true
+        });
+    }
+});
