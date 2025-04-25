@@ -319,45 +319,14 @@ const profiles = [
                             <div class="col-md-6">
                                 <div class="p-4">
                                     <h5 class="fw-bold mb-2">Prompt:</h5>
-                                    <p class="mb-0 text-muted">"A futuristic cityscape at sunset, vibrant neon colors, flying cars, ultra-detailed, by Syd Mead, trending on ArtStation"</p>
-                                </div>
+                                    <p class="mb-0 text-muted">"A dynamic low-angle shot of a runner mid-stride, wearing bright red Nike sneakers, on a track under a dramatic sunset, the shoes glowing subtly under the golden light, motion blur on the background to emphasize speed, captured with a
+Sony A1, 24-70mm lens, high contrast and vibrant tones"</p>
+                                <a href="https://seu-link-para-galeria-de-ia.com" target="_blank" class="btn btn-primary btn-lg fw-bold w-100">
+                                    Acesse a Galeria Completa
+                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row align-items-center">
-                            <div class="col-md-6 text-center">
-                                <img src="assets/ia/ia2.webp" class="d-block w-100 rounded-4" alt="Arte IA 2">
-                            </div>
-                            <div class="col-md-6">
-                                <div class="p-4">
-                                    <h5 class="fw-bold mb-2">Prompt:</h5>
-                                    <p class="mb-0 text-muted">"Portrait of a cyberpunk woman, glowing tattoos, rain, cinematic lighting, ultra-realistic, 8k, by Greg Rutkowski"</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row align-items-center">
-                            <div class="col-md-6 text-center">
-                                <img src="assets/ia/ia3.webp" class="d-block w-100 rounded-4" alt="Arte IA 3">
-                            </div>
-                            <div class="col-md-6">
-                                <div class="p-4">
-                                    <h5 class="fw-bold mb-2">Prompt:</h5>
-                                    <p class="mb-0 text-muted">"A fantasy forest with bioluminescent plants, magical atmosphere, mist, high detail, by Studio Ghibli"</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Adicione mais slides conforme desejar -->
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#iaGalleryCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#iaGalleryCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
+                    </div>                       
             </div>
         </section>
         <!-- Agentes de IA -->
