@@ -306,6 +306,70 @@ const profiles = [
                 </div>
             </div>
         </section>
+        <!-- Galeria Computação Criativa -->
+        <section class="py-5">
+            <h2 class="section-title text-center mb-4">Galeria Computação Criativa</h2>
+            <div id="creativeGalleryCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner rounded-4 shadow">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 text-center">
+                                <img src="assets/creative/creative1.webp" class="d-block w-100 rounded-4" alt="Arte Criativa 1">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-4">
+                                    <h5 class="fw-bold mb-2">Descrição:</h5>
+                                    <p class="mb-0 text-muted">"Uma composição abstrata com formas geométricas vibrantes, explorando o equilíbrio entre cores quentes e frias, criada com ferramentas digitais avançadas."</p>
+                                    <a href="creative.html" target="_blank" class="btn btn-primary btn-lg fw-bold w-100">
+                                        Explore Mais Trabalhos
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 text-center">
+                                <img src="assets/creative/creative2.webp" class="d-block w-100 rounded-4" alt="Arte Criativa 2">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-4">
+                                    <h5 class="fw-bold mb-2">Descrição:</h5>
+                                    <p class="mb-0 text-muted">"Uma paisagem surreal com elementos flutuantes, misturando técnicas de pintura digital e manipulação fotográfica."</p>
+                                    <a href="galeria.html" target="_blank" class="btn btn-primary btn-lg fw-bold w-100">
+                                        Explore Mais Trabalhos
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 text-center">
+                                <img src="assets/creative/creative3.webp" class="d-block w-100 rounded-4" alt="Arte Criativa 3">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-4">
+                                    <h5 class="fw-bold mb-2">Descrição:</h5>
+                                    <p class="mb-0 text-muted">"Uma ilustração futurista de uma cidade iluminada por neon, destacando a integração entre tecnologia e arte."</p>
+                                    <a href="galeria.html" target="_blank" class="btn btn-primary btn-lg fw-bold w-100">
+                                        Explore Mais Trabalhos
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#creativeGalleryCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#creativeGalleryCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </section>
         <!-- Galeria IA Generativa -->
         <section class="py-5">
             <h2 class="section-title text-center mb-4">Galeria IA Generativa</h2>
@@ -321,7 +385,7 @@ const profiles = [
                                     <h5 class="fw-bold mb-2">Prompt:</h5>
                                     <p class="mb-0 text-muted">"A dynamic low-angle shot of a runner mid-stride, wearing bright red Nike sneakers, on a track under a dramatic sunset, the shoes glowing subtly under the golden light, motion blur on the background to emphasize speed, captured with a
 Sony A1, 24-70mm lens, high contrast and vibrant tones"</p>
-                                <a href="https://seu-link-para-galeria-de-ia.com" target="_blank" class="btn btn-primary btn-lg fw-bold w-100">
+                                <a href="galeria.html" target="_blank" class="btn btn-primary btn-lg fw-bold w-100">
                                     Acesse a Galeria Completa
                                 </a>
                             </div>
