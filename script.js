@@ -81,9 +81,9 @@ const profiles = [
                             <h5 class="fw-bold mb-2">API de Cotações</h5>
                             <p class="mb-3">API para consulta de cotações de moedas e criptomoedas em tempo real.</p>
                             <div class="mb-3">
-                                <span class="badge badge-tech bg-primary">Python</span>
-                                <span class="badge badge-tech bg-success">Flask</span>
-                                <span class="badge badge-tech bg-info text-dark">API</span>
+                                <img src="img/agents/python.svg" width="28" alt="Python" title="Python" class="me-1">
+                                <img src="img/agents/flask.svg" width="28" alt="Flask" title="Flask" class="me-1">
+                                <img src="img/agents/api.svg" width="28" alt="API" title="API" class="me-1">
                             </div>
                             <a href="#" class="btn btn-outline-primary">Ver Projeto</a>
                         </div>
@@ -94,9 +94,9 @@ const profiles = [
                             <h5 class="fw-bold mb-2">Modelo Preditivo</h5>
                             <p class="mb-3">Modelo de machine learning para prever comportamentos de clientes.</p>
                             <div class="mb-3">
-                                <span class="badge badge-tech bg-primary">Python</span>
-                                <span class="badge badge-tech bg-warning text-dark">Scikit-learn</span>
-                                <span class="badge badge-tech bg-secondary">ML</span>
+                                <img src="img/agents/python.svg" width="28" alt="Python" title="Python" class="me-1">
+                                <img src="img/agents/scikit-learn.svg" width="28" alt="Scikit-learn" title="Scikit-learn" class="me-1">
+                                <img src="img/agents/ml.svg" width="28" alt="ML" title="ML" class="me-1">
                             </div>
                             <a href="#" class="btn btn-outline-primary">Ver Projeto</a>
                         </div>
@@ -107,9 +107,9 @@ const profiles = [
                             <h5 class="fw-bold mb-2">Análise de Dados</h5>
                             <p class="mb-3">Notebooks Jupyter com análises exploratórias de conjuntos de dados públicos.</p>
                             <div class="mb-3">
-                                <span class="badge badge-tech bg-primary">Python</span>
-                                <span class="badge badge-tech bg-danger">Pandas</span>
-                                <span class="badge badge-tech bg-info text-dark">Data Analysis</span>
+                                <img src="img/agents/python.svg" width="28" alt="Python" title="Python" class="me-1">
+                                <img src="img/agents/pandas.svg" width="28" alt="Pandas" title="Pandas" class="me-1">
+                                <img src="img/agents/data-analysis.svg" width="28" alt="Data Analysis" title="Data Analysis" class="me-1">
                             </div>
                             <a href="#" class="btn btn-outline-primary">Ver Projeto</a>
                         </div>
@@ -242,71 +242,214 @@ const profiles = [
         title: "PauloFreitas.ia",
         description: "Computação Criativa & IA Generativa",
         content: `
-            <section class="py-5">
-                <div class="row align-items-center">
-                    <div class="col-lg-7 mb-4 mb-lg-0">
-                        <h2 class="section-title">Sobre Mim em Computação Criativa</h2>
-                        <p class="lead text-muted">Explorador de novas fronteiras entre código, arte e inteligência artificial.</p>
-                        <p>Trabalho com geração de imagens, arte generativa, automação criativa e integração de IA em fluxos de design e desenvolvimento.</p>
-                        <p>Minha missão é unir criatividade humana e algoritmos para criar experiências visuais inovadoras e soluções digitais inteligentes.</p>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="card shadow-sm border-0 p-4">
-                            <div class="mb-3">
-                                <span class="fs-2 text-primary"><i class="fas fa-robot"></i></span>
-                                <span class="fw-bold fs-4 align-middle ms-2">Especializações em IA Criativa</span>
-                            </div>
-                            <ul class="list-unstyled mb-0">
-                                <li class="mb-2"><span class="text-primary"><i class="fas fa-check-circle"></i></span> <b>Arte Generativa:</b> Imagens e vídeos com IA</li>
-                                <li class="mb-2"><span class="text-primary"><i class="fas fa-check-circle"></i></span> <b>Automação Criativa:</b> Scripts para design e arte</li>
-                                <li class="mb-2"><span class="text-primary"><i class="fas fa-check-circle"></i></span> <b>Integração de APIs:</b> Midjourney, DALL-E, Firefly</li>
-                                <li><span class="text-primary"><i class="fas fa-check-circle"></i></span> <b>Desenvolvimento Generativo:</b> Código + Criatividade</li>
-                            </ul>
+        <section class="py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <h2 class="section-title">Sobre Mim em Computação Criativa</h2>
+                    <p class="lead text-muted">Explorador de novas fronteiras entre código, arte e inteligência artificial.</p>
+                    <p>Trabalho com geração de imagens, arte generativa, automação criativa e integração de IA em fluxos de design e desenvolvimento.</p>
+                    <p>Minha missão é unir criatividade humana e algoritmos para criar experiências visuais inovadoras e soluções digitais inteligentes.</p>
+                </div>
+                <div class="col-lg-5">
+                    <div class="card shadow-sm border-0 p-4">
+                        <div class="mb-3">
+                            <span class="fs-2 text-primary"><i class="fas fa-robot"></i></span>
+                            <span class="fw-bold fs-4 align-middle ms-2">Especializações em IA Criativa</span>
                         </div>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><span class="text-primary"><i class="fas fa-check-circle"></i></span> <b>Arte Generativa:</b> Imagens e vídeos com IA</li>
+                            <li class="mb-2"><span class="text-primary"><i class="fas fa-check-circle"></i></span> <b>Automação Criativa:</b> Scripts para design e arte</li>
+                            <li class="mb-2"><span class="text-primary"><i class="fas fa-check-circle"></i></span> <b>Integração de APIs:</b> Midjourney, DALL-E, Firefly</li>
+                            <li><span class="text-primary"><i class="fas fa-check-circle"></i></span> <b>Desenvolvimento Generativo:</b> Código + Criatividade</li>
+                        </ul>
                     </div>
                 </div>
-            </section>
-            <section class="py-5 bg-light">
-                <h2 class="section-title text-center">Habilidades em Computação Criativa</h2>
-                <div class="text-center mb-4">
-                    <span class="badge bg-primary skill-badge"><i class="fas fa-brain"></i> IA Generativa</span>
-                    <span class="badge bg-secondary skill-badge"><i class="fas fa-code"></i> Python</span>
-                    <span class="badge bg-success skill-badge"><i class="fas fa-image"></i> Geração de Imagem</span>
-                    <span class="badge bg-info text-dark skill-badge"><i class="fas fa-video"></i> Vídeo com IA</span>
-                    <span class="badge bg-warning text-dark skill-badge"><i class="fas fa-bolt"></i> Automação</span>
-                    <span class="badge bg-dark skill-badge"><i class="fas fa-plug"></i> APIs Criativas</span>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-4">
-                        <div class="card shadow-sm p-4 h-100 text-center">
-                            <div class="mb-3" style="font-size:2.5rem;color:#6c63ff;">
-                                <i class="fas fa-brain"></i>
-                            </div>
-                            <h4 class="fw-bold mb-2">IA Generativa</h4>
-                            <p>Criação de imagens, vídeos e textos com modelos de inteligência artificial.</p>
+            </div>
+        </section>
+        <section class="py-5 bg-light">
+            <h2 class="section-title text-center">Habilidades em Computação Criativa</h2>
+            <div class="text-center mb-4">
+                <span class="badge bg-primary skill-badge"><i class="fas fa-brain"></i> IA Generativa</span>
+                <span class="badge bg-secondary skill-badge"><i class="fas fa-code"></i> Python</span>
+                <span class="badge bg-success skill-badge"><i class="fas fa-image"></i> Geração de Imagem</span>
+                <span class="badge bg-info text-dark skill-badge"><i class="fas fa-video"></i> Vídeo com IA</span>
+                <span class="badge bg-warning text-dark skill-badge"><i class="fas fa-bolt"></i> Automação</span>
+                <span class="badge bg-dark skill-badge"><i class="fas fa-plug"></i> APIs Criativas</span>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow-sm p-4 h-100 text-center">
+                        <div class="mb-3" style="font-size:2.5rem;color:#6c63ff;">
+                            <i class="fas fa-brain"></i>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card shadow-sm p-4 h-100 text-center">
-                            <div class="mb-3" style="font-size:2.5rem;color:#00b894;">
-                                <i class="fas fa-bolt"></i>
-                            </div>
-                            <h4 class="fw-bold mb-2">Automação Criativa</h4>
-                            <p>Automação de processos criativos com código e integração de APIs.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card shadow-sm p-4 h-100 text-center">
-                            <div class="mb-3" style="font-size:2.5rem;color:#fdcb6e;">
-                                <i class="fas fa-plug"></i>
-                            </div>
-                            <h4 class="fw-bold mb-2">APIs & Ferramentas</h4>
-                            <p>Uso de Midjourney, DALL-E, Firefly, Runway e outras ferramentas IA.</p>
-                        </div>
+                        <h4 class="fw-bold mb-2">IA Generativa</h4>
+                        <p>Criação de imagens, vídeos e textos com modelos de inteligência artificial.</p>
                     </div>
                 </div>
-            </section>
-        `
+                <div class="col-md-4">
+                    <div class="card shadow-sm p-4 h-100 text-center">
+                        <div class="mb-3" style="font-size:2.5rem;color:#00b894;">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h4 class="fw-bold mb-2">Automação Criativa</h4>
+                        <p>Automação de processos criativos com código e integração de APIs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm p-4 h-100 text-center">
+                        <div class="mb-3" style="font-size:2.5rem;color:#fdcb6e;">
+                            <i class="fas fa-plug"></i>
+                        </div>
+                        <h4 class="fw-bold mb-2">APIs & Ferramentas</h4>
+                        <p>Uso de Midjourney, DALL-E, Firefly, Runway e outras ferramentas IA.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Galeria IA Generativa -->
+        <section class="py-5">
+            <h2 class="section-title text-center mb-4">Galeria IA Generativa</h2>
+            <div id="iaGalleryCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner rounded-4 shadow">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 text-center">
+                                <img src="img/ia/ia1.jpg" class="d-block w-100 rounded-4" alt="Arte IA 1">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-4">
+                                    <h5 class="fw-bold mb-2">Prompt:</h5>
+                                    <p class="mb-0 text-muted">"A futuristic cityscape at sunset, vibrant neon colors, flying cars, ultra-detailed, by Syd Mead, trending on ArtStation"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 text-center">
+                                <img src="img/ia/ia2.jpg" class="d-block w-100 rounded-4" alt="Arte IA 2">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-4">
+                                    <h5 class="fw-bold mb-2">Prompt:</h5>
+                                    <p class="mb-0 text-muted">"Portrait of a cyberpunk woman, glowing tattoos, rain, cinematic lighting, ultra-realistic, 8k, by Greg Rutkowski"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 text-center">
+                                <img src="img/ia/ia3.jpg" class="d-block w-100 rounded-4" alt="Arte IA 3">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-4">
+                                    <h5 class="fw-bold mb-2">Prompt:</h5>
+                                    <p class="mb-0 text-muted">"A fantasy forest with bioluminescent plants, magical atmosphere, mist, high detail, by Studio Ghibli"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Adicione mais slides conforme desejar -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#iaGalleryCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#iaGalleryCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+        <!-- Agentes de IA -->
+        <section class="py-5 bg-light">
+            <h2 class="section-title text-center mb-4">Meus Agentes de IA</h2>
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <!-- Agente 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card shadow-sm p-4 h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://tessai.io/wp-content/uploads/2025/02/ai-agent-2-tess-ai-150x150.png" alt="The Business Podcast Creator" class="rounded-circle me-3" width="64" height="64">
+                                <div>
+                                    <span class="fw-bold text-secondary" style="font-size:1.1rem;">Agent name:</span><br>
+                                    <span class="fw-bold" style="font-size:1.2rem;">The Business Podcast Creator</span>
+                                    <div class="mt-1">
+                                        <img src="https://tessai.io/wp-content/uploads/2025/02/ai-agent-1-podcast-creator-builder-google-openai-gemini-elevenlabs-leonardo-ai.png" width="200" alt="Google">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-light rounded p-3 mb-2" style="font-size:0.98rem;">
+                                <span class="fw-semibold">Veja instruções:</span>
+                                <ol class="mb-0 mt-2 ps-3" style="font-size:0.97rem;">
+                                    <li>Google: faça scraping de dados dos principais sites de notícias sobre IA.</li>
+                                    <li>OpenAI: leia e compile as informações mais importantes.</li>
+                                    <li>Gemini: transforme em uma narrativa envolvente para podcast.</li>
+                                    <li>ElevenLabs: gere o áudio a partir do texto.</li>
+                                    <li>Leonardo AI: crie 4 opções de capas para o episódio.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Agente 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card shadow-sm p-4 h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://tessai.io/wp-content/uploads/2025/02/ai-agent-3-tess-ai-150x150.png" alt="Customer Experience for WhatsApp" class="rounded-circle me-3" width="64" height="64">
+                                <div>
+                                    <span class="fw-bold text-secondary" style="font-size:1.1rem;">Agent name:</span><br>
+                                    <span class="fw-bold" style="font-size:1.2rem;">Customer Experience for WhatsApp</span>
+                                    <div class="mt-1">
+                                        <img src="https://tessai.io/wp-content/uploads/2025/02/ai-agent-2-builder-cs-experience-whatsapp-zapier-deepgram-cohere-sheets-pdf-claude.png" width="150" alt="WhatsApp">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-light rounded p-3 mb-2" style="font-size:0.98rem;">
+                                <span class="fw-semibold">Veja instruções:</span>
+                                <ol class="mb-0 mt-2 ps-3" style="font-size:0.97rem;">
+                                    <li>WhatsApp: automatize o atendimento e receba mensagens dos clientes.</li>
+                                    <li>Zapier: conecte fluxos automáticos com outros apps e serviços.</li>
+                                    <li>Deepgram: transcreva áudios recebidos para texto automaticamente.</li>
+                                    <li>Google Sheets: registre e organize dados de atendimento em planilhas.</li>
+                                    <li>PDF: gere relatórios automáticos em PDF para acompanhamento.</li>
+                                    <li>FigJam: visualize fluxos de atendimento e ideias colaborativas.</li>
+                                    <li>Make: crie automações criativas e integrações personalizadas.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Agente 3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card shadow-sm p-4 h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://tessai.io/wp-content/uploads/2025/02/ai-agent-1-tess-ai-150x150.png" alt="Creative Content Studio" class="rounded-circle me-3" width="64" height="64">
+                                <div>
+                                    <span class="fw-bold text-secondary" style="font-size:1.1rem;">Agent name:</span><br>
+                                    <span class="fw-bold" style="font-size:1.2rem;">Creative Content Studio</span>
+                                    <div class="mt-1">
+                                        <img src="https://tessai.io/wp-content/uploads/2025/02/ai-agent-3-builder-sales-helper-drive-deepgram-meta-llama-openai-hubspot.png" width="150" alt="Drive" title="Google Drive" class="me-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-light rounded p-3 mb-2" style="font-size:0.98rem;">
+                                <span class="fw-semibold">Veja instruções:</span>
+                                <ol class="mb-0 mt-2 ps-3" style="font-size:0.97rem;">
+                                    <li>Google Drive: organiza e armazena roteiros, imagens e vídeos criados.</li>
+                                    <li>Deepgram: transcreve áudios e vídeos automaticamente para facilitar legendas e acessibilidade.</li>
+                                    <li>Meta: sugere tendências e formatos criativos para redes sociais.</li>
+                                    <li>OpenAI: gera ideias de posts, roteiros, legendas e textos criativos.</li>
+                                    <li>HubSpot: automatiza o agendamento e análise de engajamento das publicações.</li>
+                                </ol>
+                                <div class="mt-3 text-end">
+                                    <em>feito por (chatgpt + n8n)</em>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Adicione mais agentes conforme desejar -->
+                </div>
+            </div>
+        </section>
+    `
     }
 ];
 
