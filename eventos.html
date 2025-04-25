@@ -11,7 +11,6 @@
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
 </head>
 <body>
-    
     <!-- Navbar Fixa -->
     <nav class="fixed-navbar">
         <div class="nav-container">
@@ -39,15 +38,93 @@
         </div>
     </nav>
 
-    <!-- Conteúdo da Página -->
-    <section id="content" class="text-center">
+    <!-- 1. Carrossel de Galeria de Fotos dos Eventos -->
+    <section id="galeria-eventos" class="py-5 bg-light border-bottom">
         <div class="container">
-            <h1 class="display-4 fw-bold">Eventos</h1>
-            <p class="lead">Descrição ou conteúdo relevante sobre eventos que Paulo Freitas está organizando ou participando.</p>
-            <!-- Adicione mais conteúdo aqui -->
+            <h2 class="fw-bold text-center mb-4">Galeria de Eventos</h2>
+            <div id="carouselEventos" class="carousel slide shadow" data-bs-ride="carousel">
+                <div class="carousel-inner rounded">
+                    <div class="carousel-item active">
+                        <img src="assets/eventos/evento1.jpg" class="d-block w-100" alt="Evento 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/eventos/evento2.jpg" class="d-block w-100" alt="Evento 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/eventos/evento3.jpg" class="d-block w-100" alt="Evento 3">
+                    </div>
+                    <!-- Adicione mais imagens conforme necessário -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselEventos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselEventos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Card de Certificados -->
+    <section id="certificados" class="py-5">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-4">Certificados</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-primary">
+                        <div class="card-body text-center">
+                            <a href="assets/certificados/certificado1.pdf" target="_blank">
+                                <img src="assets/certificados/certificado1-thumb.jpg" alt="Certificado 1" width="100" class="mb-3 rounded">
+                            </a>
+                            <h5 class="card-title mb-1">Certificado Evento X</h5>
+                            <span class="badge bg-primary mb-2">Evento: Nome do Evento</span>
+                            <p class="card-text small mb-2">Descrição breve do certificado ou conquista obtida no evento.</p>
+                        </div>
+                        <div class="card-footer text-muted text-center small">
+                            Data: 10/03/2025
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais certificados seguindo o padrão acima -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Card de Comunidades -->
+    <section id="comunidades" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-4">Comunidades que Participo</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-success text-center">
+                        <div class="card-body">
+                            <a href="https://www.datascienceacademy.com.br/" target="_blank">
+                                <img src="assets/comunidades/dsa-logo.png" alt="DSA" width="80" class="mb-3">
+                            </a>
+                            <h5 class="card-title mb-1">Comunidade IV</h5>
+                            <span class="badge bg-success mb-2">Comunidade</span>
+                            <p class="card-text small mb-2">teste</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-info text-center">
+                        <div class="card-body">
+                            <a href="https://www.python.org/community/" target="_blank">
+                                <img src="assets/comunidades/python-logo.png" alt="Python Community" width="80" class="mb-3">
+                            </a>
+                            <h5 class="card-title mb-1">Python Community</h5>
+                            <span class="badge bg-info text-dark mb-2">Comunidade</span>
+                            <p class="card-text small mb-2">Grupo global de entusiastas e desenvolvedores Python.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais comunidades conforme desejar -->
+            </div>
         </div>
     </section>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
