@@ -9,6 +9,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <style>
+/* Efeito hover nas badges */
+.card.skill-badge-hover, .card:hover {
+    transition: transform 0.25s cubic-bezier(.4,2,.6,1), box-shadow 0.25s;
+    cursor: pointer;
+}
+.card.skill-badge-hover:hover, .card:hover {
+    transform: translateY(-8px) scale(1.04) rotate(-1deg);
+    box-shadow: 0 8px 32px 0 rgba(0,123,255,0.15), 0 1.5px 8px 0 rgba(0,0,0,0.08);
+    border-color: #0d6efd !important;
+}
+.card .card-body img {
+    transition: filter 0.3s, transform 0.3s;
+}
+.card:hover .card-body img {
+    filter: drop-shadow(0 0 8px #0d6efd55);
+    transform: scale(1.08) rotate(-2deg);
+}
+.card .badge {
+    transition: background 0.3s, color 0.3s;
+}
+.card:hover .badge {
+    background: #000000 !important;
+    color: #fff !important;
+}
+</style>
 </head>
 <body>
     
@@ -115,7 +141,7 @@
                     <div class="card h-100 shadow-sm border-danger">
                         <div class="card-body text-center">
                             <a href="https://www.hackathon.com/" target="_blank">
-                                <img src="assets/badges/hackathon-badge.svg" alt="Hackathon Badge" width="80" class="mb-3">
+                                <img src="assets/badges/Hack-Microsoft.png" alt="Hackathon Badge" width="100" class="mb-3">
                             </a>
                             <h5 class="card-title mb-1">Hackathon Finalist</h5>
                             <span class="badge bg-danger mb-2">Evento: Hackathon Tech</span>
