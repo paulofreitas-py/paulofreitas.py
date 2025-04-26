@@ -319,7 +319,7 @@ const profiles = [
                             <div class="col-md-6">
                                 <div class="p-4">
                                     <h5 class="fw-bold mb-2">Descrição:</h5>
-                                    <p class="mb-0 text-muted">"Uma composição abstrata com formas geométricas vibrantes, explorando o equilíbrio entre cores quentes e frias, criada com ferramentas digitais avançadas."</p>
+                                    <p class="mb-0 text-muted">""</p>
                                     <a href="creative.html" target="_blank" class="btn btn-primary btn-lg fw-bold w-100">
                                         Explore Mais Trabalhos
                                     </a>
