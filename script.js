@@ -314,12 +314,12 @@ const profiles = [
                     <div class="carousel-item active">
                         <div class="row align-items-center">
                             <div class="col-md-6 text-center">
-                                <img src="assets/creative/creative1.webp" class="d-block w-100 rounded-4" alt="Arte Criativa 1">
+                                <img src="assets/creative/creative1.png" class="d-block w-100 rounded-4" alt="Arte Criativa 1">
                             </div>
                             <div class="col-md-6">
                                 <div class="p-4">
                                     <h5 class="fw-bold mb-2">Descrição:</h5>
-                                    <p class="mb-0 text-muted">""</p>
+                                    <p class="mb-0 text-muted">"Onde algoritmos ganham alma: transformamos códigos em arte e arte em código."</p>
                                     <a href="creative.html" target="_blank" class="btn btn-primary btn-lg fw-bold w-100">
                                         Explore Mais Trabalhos
                                     </a>
@@ -327,48 +327,6 @@ const profiles = [
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row align-items-center">
-                            <div class="col-md-6 text-center">
-                                <img src="assets/creative/creative2.webp" class="d-block w-100 rounded-4" alt="Arte Criativa 2">
-                            </div>
-                            <div class="col-md-6">
-                                <div class="p-4">
-                                    <h5 class="fw-bold mb-2">Descrição:</h5>
-                                    <p class="mb-0 text-muted">"Uma paisagem surreal com elementos flutuantes, misturando técnicas de pintura digital e manipulação fotográfica."</p>
-                                    <a href="galeria.html" target="_blank" class="btn btn-primary btn-lg fw-bold w-100">
-                                        Explore Mais Trabalhos
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row align-items-center">
-                            <div class="col-md-6 text-center">
-                                <img src="assets/creative/creative3.webp" class="d-block w-100 rounded-4" alt="Arte Criativa 3">
-                            </div>
-                            <div class="col-md-6">
-                                <div class="p-4">
-                                    <h5 class="fw-bold mb-2">Descrição:</h5>
-                                    <p class="mb-0 text-muted">"Uma ilustração futurista de uma cidade iluminada por neon, destacando a integração entre tecnologia e arte."</p>
-                                    <a href="galeria.html" target="_blank" class="btn btn-primary btn-lg fw-bold w-100">
-                                        Explore Mais Trabalhos
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#creativeGalleryCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#creativeGalleryCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Próximo</span>
-                </button>
-            </div>
         </section>
         <!-- Galeria IA Generativa -->
         <section class="py-5">
@@ -378,13 +336,12 @@ const profiles = [
                     <div class="carousel-item active">
                         <div class="row align-items-center">
                             <div class="col-md-6 text-center">
-                                <img src="assets/ia/ia1.webp" class="d-block w-100 rounded-4" alt="Arte IA 1">
+                                <img src="assets/ia/iag.png" class="d-block w-100 rounded-4" alt="Arte IA 1">
                             </div>
                             <div class="col-md-6">
                                 <div class="p-4">
-                                    <h5 class="fw-bold mb-2">Prompt:</h5>
-                                    <p class="mb-0 text-muted">"A dynamic low-angle shot of a runner mid-stride, wearing bright red Nike sneakers, on a track under a dramatic sunset, the shoes glowing subtly under the golden light, motion blur on the background to emphasize speed, captured with a
-Sony A1, 24-70mm lens, high contrast and vibrant tones"</p>
+                                    <h5 class="fw-bold mb-2">Descrição:</h5>
+                                    <p class="mb-0 text-muted">"IA generativa é o espelho onde a imaginação artificial se revelas"</p>
                                 <a href="galeria.html" target="_blank" class="btn btn-primary btn-lg fw-bold w-100">
                                     Acesse a Galeria Completa
                                 </a>
@@ -529,3 +486,32 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+// Array de frases dinâmicas
+const dynamicPhrases = [
+    "Onde algoritmos ganham alma: transformamos códigos em arte e arte em código.",
+    "Criatividade e tecnologia unidas para criar o futuro.",
+    "Explorando as fronteiras entre arte e inteligência artificial.",
+    "Transformando ideias em experiências visuais inovadoras."
+];
+
+let currentPhraseIndex = 0;
+
+function updateDynamicPhrase() {
+    const phraseElement = document.querySelector('#creativeGalleryCarousel .carousel-item.active .mb-0.text-muted');
+    if (phraseElement) {
+// Adiciona animação de fade-out
+        phraseElement.classList.add('fade-out');
+        setTimeout(() => {
+// Atualiza o texto e adiciona animação de fade-in
+            currentPhraseIndex = (currentPhraseIndex + 1) % dynamicPhrases.length;
+            phraseElement.textContent = `"${dynamicPhrases[currentPhraseIndex]}"`;
+            phraseElement.classList.remove('fade-out');
+            phraseElement.classList.add('fade-in');
+        }, 500); // Tempo para o fade-out
+    }
+}
+// Troca a frase a cada 4 segundos
+setInterval(updateDynamicPhrase, 3000);
+
+// FIM :)
