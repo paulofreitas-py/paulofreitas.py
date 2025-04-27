@@ -77,7 +77,7 @@ const profiles = [
                 <div class="row g-4">
                     <div class="col-md-4">
                         <div class="project-card shadow-sm bg-white p-4 h-100 rounded-4">
-                            <img src="img/projetos/projeto1.jpg" alt="Thumb API de Cotações" class="project-thumb-img mb-3">
+                            <img src="assets/projetos/AC.png" alt="Thumb API de Cotações" class="project-thumb-img mb-3">
                             <h5 class="fw-bold mb-2">API de Cotações</h5>
                             <p class="mb-3">API para consulta de cotações de moedas e criptomoedas em tempo real.</p>
                             <div class="mb-3">
