@@ -29,191 +29,235 @@
     </nav>
 
     <!-- Perfil IA, Foto e Dados -->
-    <section class="blog-profile-section py-5 bg-light border-bottom">
+    <section class="external-blogs-section py-5 bg-white border-bottom">
         <div class="container">
-            <div class="row align-items-center g-4">
-                <!-- Foto -->
-                <div class="col-md-3 text-center">
-                    <img src="https://avatars.githubusercontent.com/u/62723330?v=4" alt="Paulo Freitas" class="rounded-circle shadow profile-img-blog" width="140" height="140">
+            <h3 class="text-center fw-bold mb-4">Confira meus artigos em outras plataformas</h3>
+            <div class="row justify-content-center g-4">
+                <!-- Dev.to -->
+                <div class="col-md-4 text-center">
+                    <a href="https://dev.to/paulofreitas" target="_blank" class="text-decoration-none">
+                        <div class="card shadow-sm border-0">
+                            <img src="https://via.placeholder.com/300x150?text=Dev.to" alt="Dev.to" class="card-img-top rounded-top">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold text-primary">Dev.to</h5>
+                                <p class="card-text text-muted">Leia meus artigos sobre desenvolvimento e tecnologia no Dev.to.</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <!-- Dados -->
-                <div class="col-md-6 text-center text-md-start">
-                    <h2 class="fw-bold mb-1">Paulo Freitas</h2>
-                    <p class="mb-2 text-muted">Cientista de Dados | IA Generativa | Designer</p>
-                    <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
-                        <span class="badge bg-primary">Python</span>
-                        <span class="badge bg-success">IA</span>
-                        <span class="badge bg-warning text-dark">Design</span>
-                        <span class="badge bg-info text-dark">Data Science</span>
-                        <span class="badge bg-dark">Open Source</span>
-                    </div>
+                <!-- Medium -->
+                <div class="col-md-4 text-center">
+                    <a href="https://medium.com/@paulofreitas" target="_blank" class="text-decoration-none">
+                        <div class="card shadow-sm border-0">
+                            <img src="https://via.placeholder.com/300x150?text=Medium" alt="Medium" class="card-img-top rounded-top">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold text-success">Medium</h5>
+                                <p class="card-text text-muted">Explore insights e histórias no meu perfil do Medium.</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <!-- Links Sociais -->
-                <div class="col-md-3 text-center">
-                    <div class="d-flex flex-row flex-md-column gap-3 justify-content-center align-items-center">
-                        <a href="https://github.com/paulofreitas-py" target="_blank" class="text-dark fs-3"><i class="devicon-github-plain"></i></a>
-                        <a href="https://www.linkedin.com/in/paulo-henrique-rodrigues-freitas-6b2a3a1b3/" target="_blank" class="text-primary fs-3"><i class="devicon-linkedin-plain"></i></a>
-                        <a href="mailto:paulofreitas.ti@gmail.com" class="text-danger fs-3"><i class="fas fa-envelope"></i></a>
-                    </div>
+                <!-- DIO -->
+                <div class="col-md-4 text-center">
+                    <a href="https://dio.me/articles/paulofreitas" target="_blank" class="text-decoration-none">
+                        <div class="card shadow-sm border-0">
+                            <img src="https://via.placeholder.com/300x150?text=DIO" alt="DIO" class="card-img-top rounded-top">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold text-danger">DIO</h5>
+                                <p class="card-text text-muted">Veja meus artigos e tutoriais na plataforma DIO.</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Conteúdo do Blog -->
-    <section id="content" class="py-5">
-        <div class="container">
-            <h1 class="display-4 fw-bold text-center mb-4">Blog</h1>
-            <p class="lead text-center mb-5">Aqui você encontrará postagens e informações relevantes sobre diversos temas.</p>
-            <!-- Cards em linha -->
-            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-                <!-- Artigo 1 -->
-                <div class="col">
-                    <article class="card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="IA transformando o mundo">
-                        <div class="card-body">
-                            <div class="mb-2">
-                                <span class="badge bg-primary skill-badge"><i class="fas fa-robot"></i> IA</span>
-                                <span class="badge bg-success skill-badge"><i class="fas fa-globe"></i> Tendências</span>
-                            </div>
-                            <h3 class="card-title">Como a IA está transformando o mundo?</h3>
-                            <p class="card-text">A inteligência artificial está presente em diversas áreas, desde saúde até arte digital. Neste artigo, exploramos os principais impactos e tendências...</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
-                        </div>
-                        <div class="card-footer text-muted small">
-                            Publicado em 24 de abril de 2025
-                        </div>
-                    </article>
-                </div>
-                <!-- Artigo 2 -->
-                <div class="col">
-                    <article class="card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Python para iniciantes">
-                        <div class="card-body">
-                            <div class="mb-2">
-                                <span class="badge bg-warning text-dark skill-badge"><i class="fab fa-python"></i> Python</span>
-                                <span class="badge bg-info text-dark skill-badge"><i class="fas fa-code"></i> Programação</span>
-                            </div>
-                            <h3 class="card-title">Python para Iniciantes: Primeiros Passos</h3>
-                            <p class="card-text">Descubra como começar a programar em Python, uma das linguagens mais populares e versáteis do mundo da tecnologia. Guia prático para quem está começando...</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
-                        </div>
-                        <div class="card-footer text-muted small">
-                            Publicado em 20 de abril de 2025
-                        </div>
-                    </article>
-                </div>
-                <!-- Artigo 3 -->
-                <div class="col">
-                    <article class="card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Design e criatividade">
-                        <div class="card-body">
-                            <div class="mb-2">
-                                <span class="badge bg-danger skill-badge"><i class="fab fa-adobe"></i> Photoshop</span>
-                                <span class="badge bg-secondary skill-badge"><i class="fas fa-paint-brush"></i> Criatividade</span>
-                            </div>
-                            <h3 class="card-title">Design e Criatividade na Era Digital</h3>
-                            <p class="card-text">O design está em constante evolução com as novas tecnologias. Veja como a criatividade pode ser potencializada por ferramentas digitais e IA...</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
-                        </div>
-                        <div class="card-footer text-muted small">
-                            Publicado em 15 de abril de 2025
-                        </div>
-                    </article>
-                </div>
-                <!-- Artigo 4 -->
-                <div class="col">
-                    <article class="card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Eventos de tecnologia">
-                        <div class="card-body">
-                            <div class="mb-2">
-                                <span class="badge bg-dark skill-badge"><i class="fas fa-users"></i> Eventos</span>
-                                <span class="badge bg-primary skill-badge"><i class="fas fa-network-wired"></i> Networking</span>
-                            </div>
-                            <h3 class="card-title">Eventos de Tecnologia: Oportunidades e Networking</h3>
-                            <p class="card-text">Participar de eventos é fundamental para quem quer se atualizar e fazer networking. Confira dicas e próximos eventos imperdíveis...</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
-                        </div>
-                        <div class="card-footer text-muted small">
-                            Publicado em 10 de abril de 2025
-                        </div>
-                    </article>
-                </div>
-                <!-- Artigo 5 -->
-                <div class="col">
-                    <article class="card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Machine Learning">
-                        <div class="card-body">
-                            <div class="mb-2">
-                                <span class="badge bg-success skill-badge"><i class="fas fa-brain"></i> Machine Learning</span>
-                                <span class="badge bg-info text-dark skill-badge"><i class="fas fa-chart-line"></i> Ciência de Dados</span>
-                            </div>
-                            <h3 class="card-title">Introdução ao Machine Learning</h3>
-                            <p class="card-text">Veja como algoritmos de aprendizado de máquina estão mudando o cenário da análise de dados e como começar a estudar esse universo...</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
-                        </div>
-                        <div class="card-footer text-muted small">
-                            Publicado em 05 de abril de 2025
-                        </div>
-                    </article>
-                </div>
-                <!-- Artigo 6 -->
-                <div class="col">
-                    <article class="card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="UX Design">
-                        <div class="card-body">
-                            <div class="mb-2">
-                                <span class="badge bg-warning text-dark skill-badge"><i class="fas fa-user-check"></i> UX Design</span>
-                                <span class="badge bg-primary skill-badge"><i class="fab fa-figma"></i> Figma</span>
-                            </div>
-                            <h3 class="card-title">UX Design: Experiência do Usuário em Foco</h3>
-                            <p class="card-text">Entenda a importância do UX Design e como ferramentas como o Figma ajudam a criar experiências digitais incríveis...</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
-                        </div>
-                        <div class="card-footer text-muted small">
-                            Publicado em 02 de abril de 2025
-                        </div>
-                    </article>
-                </div>
-                <!-- Artigo 7 -->
-                <div class="col">
-                    <article class="card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Automação com IA">
-                        <div class="card-body">
-                            <div class="mb-2">
-                                <span class="badge bg-success skill-badge"><i class="fas fa-cogs"></i> Automação</span>
-                                <span class="badge bg-danger skill-badge"><i class="fas fa-robot"></i> IA Generativa</span>
-                            </div>
-                            <h3 class="card-title">Automação Inteligente com IA Generativa</h3>
-                            <p class="card-text">Descubra como a IA generativa está revolucionando processos de automação em empresas e startups...</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
-                        </div>
-                        <div class="card-footer text-muted small">
-                            Publicado em 28 de março de 2025
-                        </div>
-                    </article>
-                </div>
-                <!-- Artigo 8 -->
-                <div class="col">
-                    <article class="card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Visualização de Dados">
-                        <div class="card-body">
-                            <div class="mb-2">
-                                <span class="badge bg-info text-dark skill-badge"><i class="fas fa-chart-bar"></i> Visualização</span>
-                                <span class="badge bg-dark skill-badge"><i class="fab fa-python"></i> Pandas</span>
-                            </div>
-                            <h3 class="card-title">Visualização de Dados com Python e Pandas</h3>
-                            <p class="card-text">Aprenda a criar gráficos e dashboards interativos utilizando Python e a biblioteca Pandas para análise de dados...</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
-                        </div>
-                        <div class="card-footer text-muted small">
-                            Publicado em 22 de março de 2025
-                        </div>
-                    </article>
-                </div>
+    <!-- Barra de Pesquisa -->
+<section class="search-bar py-3 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <input type="text" id="searchInput" class="form-control" placeholder="Filtrar artigos por tema...">
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- Conteúdo do Blog -->
+<section id="content" class="py-5">
+    <div class="container">
+        <h1 class="display-4 fw-bold text-center mb-4">Blog</h1>
+        <p class="lead text-center mb-5">Aqui você encontrará postagens e informações relevantes sobre diversos temas.</p>
+        <!-- Cards em linha -->
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center" id="articlesContainer">
+            <!-- Artigos existentes -->
+            <!-- Artigo 1 -->
+            <div class="col">
+                <article class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="IA transformando o mundo">
+                    <div class="card-body">
+                        <div class="mb-2">
+                            <span class="badge bg-primary skill-badge"><i class="fas fa-robot"></i> IA</span>
+                            <span class="badge bg-success skill-badge"><i class="fas fa-globe"></i> Tendências</span>
+                        </div>
+                        <h3 class="card-title">Como a IA está transformando o mundo?</h3>
+                        <p class="card-text">A inteligência artificial está presente em diversas áreas, desde saúde até arte digital. Neste artigo, exploramos os principais impactos e tendências...</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
+                    </div>
+                    <div class="card-footer text-muted small">
+                        Publicado em 24 de abril de 2025
+                    </div>
+                </article>
+            </div>
+            <!-- Artigo 2 -->
+            <div class="col">
+                <article class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Python para iniciantes">
+                    <div class="card-body">
+                        <div class="mb-2">
+                            <span class="badge bg-warning text-dark skill-badge"><i class="fab fa-python"></i> Python</span>
+                            <span class="badge bg-info text-dark skill-badge"><i class="fas fa-code"></i> Programação</span>
+                        </div>
+                        <h3 class="card-title">Python para Iniciantes: Primeiros Passos</h3>
+                        <p class="card-text">Descubra como começar a programar em Python, uma das linguagens mais populares e versáteis do mundo da tecnologia. Guia prático para quem está começando...</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
+                    </div>
+                    <div class="card-footer text-muted small">
+                        Publicado em 20 de abril de 2025
+                    </div>
+                </article>
+            </div>
+            <!-- Artigo 3 -->
+            <div class="col">
+                <article class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Design e criatividade">
+                    <div class="card-body">
+                        <div class="mb-2">
+                            <span class="badge bg-danger skill-badge"><i class="fab fa-adobe"></i> Photoshop</span>
+                            <span class="badge bg-secondary skill-badge"><i class="fas fa-paint-brush"></i> Criatividade</span>
+                        </div>
+                        <h3 class="card-title">Design e Criatividade na Era Digital</h3>
+                        <p class="card-text">O design está em constante evolução com as novas tecnologias. Veja como a criatividade pode ser potencializada por ferramentas digitais e IA...</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
+                    </div>
+                    <div class="card-footer text-muted small">
+                        Publicado em 15 de abril de 2025
+                    </div>
+                </article>
+            </div>
+            <!-- Artigo 4 -->
+            <div class="col">
+                <article class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Eventos de tecnologia">
+                    <div class="card-body">
+                        <div class="mb-2">
+                            <span class="badge bg-dark skill-badge"><i class="fas fa-users"></i> Eventos</span>
+                            <span class="badge bg-primary skill-badge"><i class="fas fa-network-wired"></i> Networking</span>
+                        </div>
+                        <h3 class="card-title">Eventos de Tecnologia: Oportunidades e Networking</h3>
+                        <p class="card-text">Participar de eventos é fundamental para quem quer se atualizar e fazer networking. Confira dicas e próximos eventos imperdíveis...</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
+                    </div>
+                    <div class="card-footer text-muted small">
+                        Publicado em 10 de abril de 2025
+                    </div>
+                </article>
+            </div>
+            <!-- Artigo 5 -->
+            <div class="col">
+                <article class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Machine Learning">
+                    <div class="card-body">
+                        <div class="mb-2">
+                            <span class="badge bg-success skill-badge"><i class="fas fa-brain"></i> Machine Learning</span>
+                            <span class="badge bg-info text-dark skill-badge"><i class="fas fa-chart-line"></i> Ciência de Dados</span>
+                        </div>
+                        <h3 class="card-title">Introdução ao Machine Learning</h3>
+                        <p class="card-text">Veja como algoritmos de aprendizado de máquina estão mudando o cenário da análise de dados e como começar a estudar esse universo...</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
+                    </div>
+                    <div class="card-footer text-muted small">
+                        Publicado em 05 de abril de 2025
+                    </div>
+                </article>
+            </div>
+            <!-- Artigo 6 -->
+            <div class="col">
+                <article class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="UX Design">
+                    <div class="card-body">
+                        <div class="mb-2">
+                            <span class="badge bg-warning text-dark skill-badge"><i class="fas fa-user-check"></i> UX Design</span>
+                            <span class="badge bg-primary skill-badge"><i class="fab fa-figma"></i> Figma</span>
+                        </div>
+                        <h3 class="card-title">UX Design: Experiência do Usuário em Foco</h3>
+                        <p class="card-text">Entenda a importância do UX Design e como ferramentas como o Figma ajudam a criar experiências digitais incríveis...</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
+                    </div>
+                    <div class="card-footer text-muted small">
+                        Publicado em 02 de abril de 2025
+                    </div>
+                </article>
+            </div>
+            <!-- Artigo 7 -->
+            <div class="col">
+                <article class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Automação com IA">
+                    <div class="card-body">
+                        <div class="mb-2">
+                            <span class="badge bg-success skill-badge"><i class="fas fa-cogs"></i> Automação</span>
+                            <span class="badge bg-danger skill-badge"><i class="fas fa-robot"></i> IA Generativa</span>
+                        </div>
+                        <h3 class="card-title">Automação Inteligente com IA Generativa</h3>
+                        <p class="card-text">Descubra como a IA generativa está revolucionando processos de automação em empresas e startups...</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
+                    </div>
+                    <div class="card-footer text-muted small">
+                        Publicado em 28 de março de 2025
+                    </div>
+                </article>
+            </div>
+            <!-- Artigo 8 -->
+            <div class="col">
+                <article class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Visualização de Dados">
+                    <div class="card-body">
+                        <div class="mb-2">
+                            <span class="badge bg-info text-dark skill-badge"><i class="fas fa-chart-bar"></i> Visualização</span>
+                            <span class="badge bg-dark skill-badge"><i class="fab fa-python"></i> Pandas</span>
+                        </div>
+                        <h3 class="card-title">Visualização de Dados com Python e Pandas</h3>
+                        <p class="card-text">Aprenda a criar gráficos e dashboards interativos utilizando Python e a biblioteca Pandas para análise de dados...</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Leia mais</a>
+                    </div>
+                    <div class="card-footer text-muted small">
+                        Publicado em 22 de março de 2025
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Filtro de artigos
+    document.getElementById('searchInput').addEventListener('input', function () {
+        const filter = this.value.toLowerCase();
+        const articles = document.querySelectorAll('#articlesContainer .col');
+
+        articles.forEach(article => {
+            const badges = article.querySelectorAll('.skill-badge');
+            const matches = Array.from(badges).some(badge => badge.textContent.toLowerCase().includes(filter));
+
+            if (matches) {
+                article.style.display = '';
+            } else {
+                article.style.display = 'none';
+            }
+        });
+    });
+</script>
 
     <script src="script.js"></script>
 </body>
