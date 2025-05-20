@@ -378,6 +378,9 @@ const profiles = [
                                     <li>Leonardo AI: crie 4 opções de capas para o episódio.</li>
                                 </ol>
                             </div>
+                            <div class="text-center mt-3">
+                                <button class="btn btn-outline-secondary" disabled>Testar (em breve)</button>
+                            </div>
                         </div>
                     </div>
                     <!-- Agente 2 -->
@@ -404,6 +407,9 @@ const profiles = [
                                     <li>FigJam: visualize fluxos de atendimento e ideias colaborativas.</li>
                                     <li>Make: crie automações criativas e integrações personalizadas.</li>
                                 </ol>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button class="btn btn-outline-secondary" disabled>Testar (em breve)</button>
                             </div>
                         </div>
                     </div>
@@ -432,6 +438,9 @@ const profiles = [
                                 <div class="mt-3 text-end">
                                     <em>feito por (chatgpt + n8n)</em>
                                 </div>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button class="btn btn-outline-secondary" disabled>Testar (em breve)</button>
                             </div>
                         </div>
                     </div>
