@@ -361,7 +361,7 @@ const profiles = [
                             <div class="d-flex align-items-center mb-3">
                                 <img src="https://tessai.io/wp-content/uploads/2025/02/ai-agent-2-tess-ai-150x150.png" alt="The Business Podcast Creator" class="rounded-circle me-3" width="64" height="64">
                                 <div>
-                                    <span class="fw-bold text-secondary" style="font-size:1.1rem;">Agent name:</span><br>
+                                    <span class="fw-bold text-secondary" style="font-size:1.1rem;">Agent name: Voxen</span><br>
                                     <span class="fw-bold" style="font-size:1.2rem;">The Business Podcast Creator</span>
                                     <div class="mt-1">
                                         <img src="https://tessai.io/wp-content/uploads/2025/02/ai-agent-1-podcast-creator-builder-google-openai-gemini-elevenlabs-leonardo-ai.png" width="200" alt="Google">
@@ -386,7 +386,7 @@ const profiles = [
                             <div class="d-flex align-items-center mb-3">
                                 <img src="https://tessai.io/wp-content/uploads/2025/02/ai-agent-3-tess-ai-150x150.png" alt="Customer Experience for WhatsApp" class="rounded-circle me-3" width="64" height="64">
                                 <div>
-                                    <span class="fw-bold text-secondary" style="font-size:1.1rem;">Agent name:</span><br>
+                                    <span class="fw-bold text-secondary" style="font-size:1.1rem;">Agent name:Zara</span><br>
                                     <span class="fw-bold" style="font-size:1.2rem;">Customer Experience for WhatsApp</span>
                                     <div class="mt-1">
                                         <img src="https://tessai.io/wp-content/uploads/2025/02/ai-agent-2-builder-cs-experience-whatsapp-zapier-deepgram-cohere-sheets-pdf-claude.png" width="150" alt="WhatsApp">
@@ -413,7 +413,7 @@ const profiles = [
                             <div class="d-flex align-items-center mb-3">
                                 <img src="https://tessai.io/wp-content/uploads/2025/02/ai-agent-1-tess-ai-150x150.png" alt="Creative Content Studio" class="rounded-circle me-3" width="64" height="64">
                                 <div>
-                                    <span class="fw-bold text-secondary" style="font-size:1.1rem;">Agent name:</span><br>
+                                    <span class="fw-bold text-secondary" style="font-size:1.1rem;">Agent name: Liora</span><br>
                                     <span class="fw-bold" style="font-size:1.2rem;">Creative Content Studio</span>
                                     <div class="mt-1">
                                         <img src="https://tessai.io/wp-content/uploads/2025/02/ai-agent-3-builder-sales-helper-drive-deepgram-meta-llama-openai-hubspot.png" width="150" alt="Drive" title="Google Drive" class="me-1">
