@@ -266,129 +266,73 @@ const profiles = [
         <div class="row g-4 justify-content-center">
             <div class="col-md-6">
                 <div class="card shadow-sm p-4 h-100 d-flex flex-row align-items-center">
-                    <img src="assets/icons/instagram.svg" alt="Instagram" style="height:38px;margin-right:18px;">
-                    <div>
-                        <h5 class="fw-bold mb-2">Automação Instagram <span class="badge bg-success ms-2">✓ Produção</span></h5>
+                    <div class="w-100">
+                        <h5 class="fw-bold mb-2">Automação Instagram <span class="badge bg-success ms-2">✓ Pronto para Produção</span></h5>
                         <p>Respostas automáticas no DM</p>
-                        <img src="assets/projetos/insta-auto.png" alt="Demo Instagram" class="img-fluid rounded mb-2" style="max-width:120px;">
+                        <img src="assets/projetos/insta-auto.png" alt="Demo Instagram" class="img-fluid rounded mb-2 w-100" style="max-width:100%;height:auto;">
+                        <div class="mt-3 text-center">
+                            <button class="btn btn-outline-primary">Solicitar Template</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card shadow-sm p-4 h-100 d-flex flex-row align-items-center">
-                    <img src="assets/icons/whatsapp.svg" alt="WhatsApp" style="height:38px;margin-right:18px;">
-                    <div>
-                        <h5 class="fw-bold mb-2">Disparo em Massa — fluxo n8n <span class="badge bg-success ms-2">✓ Produção</span></h5>
+                    <div class="w-100">
+                        <h5 class="fw-bold mb-2">Disparo em Massa — fluxo n8n <span class="badge bg-success ms-2">✓ Pronto para Produção</span></h5>
                         <p>Dispare mensagens no Whatsapp</p>
-                        <img src="assets/projetos/whatsapp-mass.png" alt="Demo WhatsApp" class="img-fluid rounded mb-2" style="max-width:120px;">
+                        <img src="assets/projetos/whatsapp-mass.png" alt="Demo WhatsApp" class="img-fluid rounded mb-2 w-100" style="max-width:100%;height:auto;">
+                        <div class="mt-3 text-center">
+                            <button class="btn btn-outline-primary">Solicitar Template</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card shadow-sm p-4 h-100 d-flex flex-row align-items-center">
-                    <img src="assets/icons/ai.svg" alt="IA" style="height:38px;margin-right:18px;">
-                    <div>
-                        <h5 class="fw-bold mb-2">IA para Atendimento — fluxo n8n <span class="badge bg-success ms-2">✓ Produção</span></h5>
+                    <div class="w-100">
+                        <h5 class="fw-bold mb-2">IA para Atendimento — fluxo n8n <span class="badge bg-success ms-2">✓ Pronto para Produção</span></h5>
                         <p>IA inteligente para atendimento</p>
-                        <img src="assets/projetos/ia-atendimento.png" alt="Demo IA Atendimento" class="img-fluid rounded mb-2" style="max-width:120px;">
+                        <img src="assets/projetos/ia-atendimento.png" alt="Demo IA Atendimento" class="img-fluid rounded mb-2 w-100" style="max-width:100%;height:auto;">
+                        <div class="mt-3 text-center">
+                            <button class="btn btn-outline-primary">Solicitar Template</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card shadow-sm p-4 h-100 d-flex flex-row align-items-center">
-                    <img src="assets/icons/text.svg" alt="Texto" style="height:38px;margin-right:18px;">
-                    <div>
-                        <h5 class="fw-bold mb-2">Escritor profissional — fluxo n8n <span class="badge bg-success ms-2">✓ Produção</span></h5>
+                    <div class="w-100">
+                        <h5 class="fw-bold mb-2">Escritor profissional — fluxo n8n <span class="badge bg-success ms-2">✓ Pronto para Produção</span></h5>
                         <p>Crie textos profissionais</p>
-                        <img src="assets/projetos/escritor.png" alt="Demo Escritor" class="img-fluid rounded mb-2" style="max-width:120px;">
+                        <img src="assets/projetos/escritor.png" alt="Demo Escritor" class="img-fluid rounded mb-2 w-100" style="max-width:100%;height:auto;">
+                        <div class="mt-3 text-center">
+                            <button class="btn btn-outline-primary">Solicitar Template</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card shadow-sm p-4 h-100 d-flex flex-row align-items-center">
-                    <img src="assets/icons/calendar.svg" alt="Agendamento" style="height:38px;margin-right:18px;">
-                    <div>
-                        <h5 class="fw-bold mb-2">Agente IA Agendamento Completo — fluxo n8n <span class="badge bg-success ms-2">✓ Produção</span></h5>
+                    <div class="w-100">
+                        <h5 class="fw-bold mb-2">Agente IA Agendamento Completo — fluxo n8n <span class="badge bg-success ms-2">✓ Pronto para Produção</span></h5>
                         <p>Captação, qualificação e agendamento</p>
-                        <img src="assets/projetos/agendamento.png" alt="Demo Agendamento" class="img-fluid rounded mb-2" style="max-width:120px;">
+                        <img src="assets/projetos/agendamento.png" alt="Demo Agendamento" class="img-fluid rounded mb-2 w-100" style="max-width:100%;height:auto;">
+                        <div class="mt-3 text-center">
+                            <button class="btn btn-outline-primary">Solicitar Template</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card shadow-sm p-4 h-100 d-flex flex-row align-items-center">
-                    <img src="assets/icons/instagram.svg" alt="Instagram Conteúdo" style="height:38px;margin-right:18px;">
-                    <div>
-                        <h5 class="fw-bold mb-2">Criação Automática de Conteúdo para Instagram — fluxo n8n <span class="badge bg-success ms-2">✓ Produção</span></h5>
+                    <div class="w-100">
+                        <h5 class="fw-bold mb-2">Criação Automática de Conteúdo para Instagram — fluxo n8n <span class="badge bg-success ms-2">✓ Pronto para Produção</span></h5>
                         <p>Conteúdo automático para Instagram</p>
-                        <img src="assets/projetos/insta-content.png" alt="Demo Conteúdo Instagram" class="img-fluid rounded mb-2" style="max-width:120px;">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="py-5">
-        <h2 class="section-title text-center mb-4">
-            <img src="assets/icons/n8n.svg" alt="n8n" style="height:32px;vertical-align:middle;margin-right:10px;">
-            Templates n8n (Demonstração)
-        </h2>
-        <div class="row g-4 justify-content-center">
-            <div class="col-md-6">
-                <div class="card shadow-sm p-4 h-100 d-flex flex-row align-items-center">
-                    <img src="assets/icons/instagram.svg" alt="Instagram" style="height:38px;margin-right:18px;">
-                    <div>
-                        <h5 class="fw-bold mb-2">Automação Instagram <span class="badge bg-success ms-2">✓ Produção</span></h5>
-                        <p>Respostas automáticas no DM</p>
-                        <img src="assets/projetos/insta-auto.png" alt="Demo Instagram" class="img-fluid rounded mb-2" style="max-width:120px;">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card shadow-sm p-4 h-100 d-flex flex-row align-items-center">
-                    <img src="assets/icons/whatsapp.svg" alt="WhatsApp" style="height:38px;margin-right:18px;">
-                    <div>
-                        <h5 class="fw-bold mb-2">Disparo em Massa — fluxo n8n <span class="badge bg-success ms-2">✓ Produção</span></h5>
-                        <p>Dispare mensagens no Whatsapp</p>
-                        <img src="assets/projetos/whatsapp-mass.png" alt="Demo WhatsApp" class="img-fluid rounded mb-2" style="max-width:120px;">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card shadow-sm p-4 h-100 d-flex flex-row align-items-center">
-                    <img src="assets/icons/ai.svg" alt="IA" style="height:38px;margin-right:18px;">
-                    <div>
-                        <h5 class="fw-bold mb-2">IA para Atendimento — fluxo n8n <span class="badge bg-success ms-2">✓ Produção</span></h5>
-                        <p>IA inteligente para atendimento</p>
-                        <img src="assets/projetos/ia-atendimento.png" alt="Demo IA Atendimento" class="img-fluid rounded mb-2" style="max-width:120px;">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card shadow-sm p-4 h-100 d-flex flex-row align-items-center">
-                    <img src="assets/icons/text.svg" alt="Texto" style="height:38px;margin-right:18px;">
-                    <div>
-                        <h5 class="fw-bold mb-2">Escritor profissional — fluxo n8n <span class="badge bg-success ms-2">✓ Produção</span></h5>
-                        <p>Crie textos profissionais</p>
-                        <img src="assets/projetos/escritor.png" alt="Demo Escritor" class="img-fluid rounded mb-2" style="max-width:120px;">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card shadow-sm p-4 h-100 d-flex flex-row align-items-center">
-                    <img src="assets/icons/calendar.svg" alt="Agendamento" style="height:38px;margin-right:18px;">
-                    <div>
-                        <h5 class="fw-bold mb-2">Agente IA Agendamento Completo — fluxo n8n <span class="badge bg-success ms-2">✓ Produção</span></h5>
-                        <p>Captação, qualificação e agendamento</p>
-                        <img src="assets/projetos/agendamento.png" alt="Demo Agendamento" class="img-fluid rounded mb-2" style="max-width:120px;">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card shadow-sm p-4 h-100 d-flex flex-row align-items-center">
-                    <img src="assets/icons/instagram.svg" alt="Instagram Conteúdo" style="height:38px;margin-right:18px;">
-                    <div>
-                        <h5 class="fw-bold mb-2">Criação Automática de Conteúdo para Instagram — fluxo n8n <span class="badge bg-success ms-2">✓ Produção</span></h5>
-                        <p>Conteúdo automático para Instagram</p>
-                        <img src="assets/projetos/insta-content.png" alt="Demo Conteúdo Instagram" class="img-fluid rounded mb-2" style="max-width:120px;">
+                        <img src="assets/projetos/insta-content.png" alt="Demo Conteúdo Instagram" class="img-fluid rounded mb-2 w-100" style="max-width:100%;height:auto;">
+                        <div class="mt-3 text-center">
+                            <button class="btn btn-outline-primary">Solicitar Template</button>
+                        </div>
                     </div>
                 </div>
             </div>
