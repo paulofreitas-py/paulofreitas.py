@@ -90,7 +90,7 @@ const profiles = [
                     </div>
                     <div class="col-md-4">
                         <div class="project-card shadow-sm bg-white p-4 h-100 rounded-4">
-                            <img src="img/projetos/projeto2.jpg" alt="Thumb Modelo Preditivo" class="project-thumb-img mb-3">
+                            <img src="assets/projetos/MP.png" alt="Thumb Modelo Preditivo" class="project-thumb-img mb-3">
                             <h5 class="fw-bold mb-2">Modelo Preditivo</h5>
                             <p class="mb-3">Modelo de machine learning para prever comportamentos de clientes.</p>
                             <div class="mb-3">
