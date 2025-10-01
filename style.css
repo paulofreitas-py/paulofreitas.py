@@ -109,7 +109,7 @@ body {
 }
 
 .hero.design {
-    background: linear-gradient(135deg, #ff512f 0%, #dd2476 100%);
+    background: linear-gradient(135deg, #67504b 0%, #dd2476 100%);
     color: #fff;
 }
 
@@ -593,4 +593,10 @@ footer::before {
 @keyframes logo-scroll {
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
+}
+
+/* Gradiente para a seção Hydra */
+.hydra-gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
 }
